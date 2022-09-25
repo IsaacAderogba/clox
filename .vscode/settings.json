@@ -1,3 +1,10 @@
 {
-	"window.zoomLevel": 1
+	"window.zoomLevel": 1,
+	"files.associations": {
+		"value.h": "c",
+		"memory.h": "c",
+		"stdlib.h": "c",
+		"chunk.h": "c",
+		"debug.h": "c"
+	}
 }
