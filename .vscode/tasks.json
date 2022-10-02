@@ -19,6 +19,10 @@
             "command": "rm -rf ./build/",
             "windows": {
                 "command": "rm -R .\\build\\"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
             }
         },
         {
@@ -40,10 +44,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "options": {
                 "cwd": "${workspaceFolder}"
             },
